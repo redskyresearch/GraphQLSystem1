@@ -74,3 +74,4 @@ A step-by-step series of examples that tell you how to get a development environ
 - [Express.js](https://expressjs.com/) - The web framework used (if applicable)
 - [MongoDB](https://www.mongodb.com/) - Database
 - [Mongoose](https://mongoosejs.com/) - MongoDB object modeling tool
+- [GraphQL](https://graphql.org/) - Query language for APIs
