@@ -22,6 +22,8 @@ const typeDefs = gql`
 
     type Query {
         allA: [A]
+        allB: [B]
+        allC: [C]
         a(id: ID!): A
         b(id: ID!): B
         c(id: ID!): C
@@ -30,6 +32,8 @@ const typeDefs = gql`
 
     type Mutation {
         addA(name: String!): A
+        addB(topic: String!, aRef: ID!): B
+        addC(subject: String!, message: String!, date: String!, bRef: ID!): C
     }
 `;
 
