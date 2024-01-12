@@ -12,6 +12,10 @@ const resolvers = {
             // Logic to fetch all documents from A model
             return B.find({}).populate('aRef');
         },
+        allC: async () => {
+            // Logic to fetch all documents from A model
+            return C.find({}).populate('bRef');
+        },
         // Add other query resolvers
     },
     Mutation: {
